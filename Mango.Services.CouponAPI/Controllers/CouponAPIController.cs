@@ -40,6 +40,8 @@ namespace Mango.Services.CouponAPI.Controllers
             return _response;
         }
 
+
+        //id as parameter
         [HttpGet]
         [Route("{id:int}")]
         public ResponseDto Get(int id)

@@ -4,6 +4,7 @@ using Mango.Services.CouponAPI.Models.Dto;
 
 namespace Mango.Services.CouponAPI
 {
+    //configuration for automapper
     public class MappingConfig
     {
         public static MapperConfiguration RegisterMaps()

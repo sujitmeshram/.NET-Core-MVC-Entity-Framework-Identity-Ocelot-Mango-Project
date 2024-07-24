@@ -7,6 +7,8 @@ using static Mango.Web.Utility.SD;
 
 namespace Mango.Web.Service
 {
+    //v.26
+    //base comman service for sending requests to the multiple APIs
     public class BaseService : IBaseService
     {
         private readonly IHttpClientFactory _httpClientFactory;

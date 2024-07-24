@@ -73,6 +73,8 @@ ApplyMigration();
 app.Run();
 
 
+
+//logic to apply any pending migrations
 void ApplyMigration()
 {
     using (var scope = app.Services.CreateScope())
